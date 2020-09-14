@@ -1,0 +1,120 @@
+/* 
+=======================
+Master Stylesheet 
+=======================
+Teamplate Name : Burger House
+Author : Md.Mahmudul Hasan Hridoy
+Author url : hridoy.com
+Description : Responsive Resturant HTML Template
+Version : 1.0.0
+Tag : Food, Business, Resturant
+*/
+
+/* 
+=================
+Table Of Content 
+================
+1.Typography : 
+2.   
+3.
+4.
+5.
+6.
+7.
+8.
+*/
+
+/*================
+    Typography 
+ ================*/
+ @font-face{
+     font-family: BebasNeueBold;
+     src: url(../assets/fonts/BebasNeueBold.otf)
+ }
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap');
+
+/*
+ font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; 
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+h1, h2, h3, h4,  h5, h6{
+    font-family: BebasNeueBold;
+    font-weight: 700;
+    font-size: 12px;
+    color: #3d2514;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/*================
+    Header Start
+ ================*/
+header{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    padding: 100px 0;
+}
+.header-top li p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3d2514;
+}
+.header-top li a{
+    color: #3d2514;
+}
+.nav-link{
+    font-family: BebasNeueBold;
+    font-weight: 700;
+    font-size: 20px;
+    color: #3d2514 !important;
+    text-transform: uppercase;
+    padding-left: 50px !important;
+    letter-spacing: 5px;
+
+}
+.nav-link:hover{
+    color: #bf2222 !important;
+    transition: .3s;
+}
+.banner p{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    color: #3d2514;
+
+}
+.banner h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 135px;
+    color: rgb(61, 37, 20);
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 3.936px 4.528px 0px #fee8bc;
+    line-height: 100px;
+    padding: 30px 0;
+
+}
+.banner span{
+    font-size: 50px;
+}
+ /*================
+    Header End 
+ ================*/
